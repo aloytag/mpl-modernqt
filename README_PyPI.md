@@ -16,7 +16,7 @@ pip install mpl-modernqt -U
 
 On MS Windows you may prefer:
 ```bash
-python -m pip mpl-modernqt -U
+python -m pip install mpl-modernqt -U
 ```
 
 ## Usage
