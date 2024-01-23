@@ -11,12 +11,12 @@ Using ```pip```, the official Python package manager...
 
 On GNU/Linux and MacOS execute the following order in a terminal:
 ```bash
-pip install matplotlib-modernqt -U
+pip install mpl-modernqt -U
 ```
 
 On MS Windows you may prefer:
 ```bash
-python -m pip matplotlib-modernqt -U
+python -m pip mpl-modernqt -U
 ```
 
 ## Usage
