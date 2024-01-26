@@ -43,8 +43,8 @@ _formlayout.fedit = fedit2
 class NV(NavigationToolbar2QT):
     def __init__(self, canvas, parent=None, coordinates=True):
         super().__init__(canvas, parent, coordinates)
-        self.setStyleSheet("background : #f8f9fa;")  # light
-        # self.setStyleSheet("background : #202124;")  # dark
+        self.setStyleSheet("QToolBar {background : #f8f9fa};")  # light
+        # self.setStyleSheet("QToolBar {background : #202124};")  # dark
 
         btn_reset_zoom = self.actions()[0]
         btn_reset_zoom.setIcon(qta.icon('ph.house'))
