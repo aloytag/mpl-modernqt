@@ -6,13 +6,13 @@ from matplotlib.backends.qt_editor import _formlayout
 from matplotlib.backends.qt_compat import QtWidgets
 from matplotlib.backends.qt_editor._formlayout import FormDialog
 import qtawesome as qta
-import qdarktheme  # Always import after Qt
+import qdarktheme2  # Always import after Qt
 
 
 class FigureCanvasQTAgg2(FigureCanvasQTAgg):
     def __init__(self, figure=None, *args, **kwargs):
         super().__init__(figure, *args, **kwargs)
-        qdarktheme.setup_theme('light')
+        qdarktheme2.setup_theme('light')
         # self.figure.set_facecolor('#ebebeb')
         self.figure.set_facecolor('#f8f9fa')
 
