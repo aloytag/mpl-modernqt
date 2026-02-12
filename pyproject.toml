@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mpl-modernqt"
-version = "1.4"
+version = "1.5"
 author = "Dr. Ing. Ariel S. Loyarte"
 authors = [
   { name="Dr. Ing. Ariel S. Loyarte", email="aloyarte@frsf.utn.edu.ar" },
