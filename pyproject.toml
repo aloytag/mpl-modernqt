@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mpl-modernqt"
-version = "1.5"
+version = "1.6"
 author = "Dr. Ing. Ariel S. Loyarte"
 authors = [
   { name="Dr. Ing. Ariel S. Loyarte", email="aloyarte@frsf.utn.edu.ar" },
@@ -15,6 +15,7 @@ requires-python = ">=3.8"
 dependencies = [
   "qtawesome>=1.2.2",
   "matplotlib>=3.6.0",
+  "darkdetect>=0.7.1",
 ]
 classifiers = [
   "Programming Language :: Python :: 3",
